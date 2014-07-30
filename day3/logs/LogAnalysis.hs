@@ -36,7 +36,7 @@ order Leaf = []
 order t = (order . left) t ++ [value t] ++ (order . right) t
 
 parse :: String -> [LogMessage]
-parse = map parseMessage . split '\n'
+parse = map parseMessage . lines --split '\n'
 
 parseMessage :: String -> LogMessage
 parseMessage x
