@@ -1,4 +1,4 @@
-Learning Haskell following [Learn you a Haskell](http://learnyouahaskell.com)
+Learning Haskell following [UPenn CIS194](http://www.cis.upenn.edu/~cis194/) and [Learn you a Haskell](http://learnyouahaskell.com)
 
 More resources used: 
 
