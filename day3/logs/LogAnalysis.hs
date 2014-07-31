@@ -21,6 +21,7 @@ right _ = Leaf
 
 treeInsert :: MessageTree -> LogMessage -> MessageTree
 treeInsert Leaf x = Node Leaf x Leaf
+--treeInsert _ (Unknown _) = Leaf
 treeInsert t x
 	| xi <= self = Node (treeInsert (left t) x) (value t) (right t)
 	| xi > self =  Node (left t) (value t) (treeInsert (right t) x)
