@@ -4,7 +4,7 @@ toDigits x = map read [[a] | a <- show x]
 
 toDigitsRev :: Integer -> [Integer]
 toDigitsRev 0 = []
-toDigitsRev x = (rev.toDigits) x
+toDigitsRev = rev.toDigits
 
 rev :: [a] -> [a]
 rev [] = []
@@ -17,7 +17,7 @@ doubleEveryOther (x:y:xs) = [x, 2*y] ++ doubleEveryOther xs
 
 sumDigits :: [Integer] -> Integer
 sumDigits [] = 0
-sumDigits xs = sum $ map (sum . toDigits) xs
+sumDigits = sum $ map (sum . toDigits)
 
 validate :: Integer -> Bool
 validate x = (sumDigits.doubleEveryOther.toDigitsRev) x `mod` 10 == 0
