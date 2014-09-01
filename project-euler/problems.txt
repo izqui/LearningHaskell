@@ -22,6 +22,7 @@ Problem 1
 
    
    Answer: e1edf9d1967ca96767dcc2b2d6df69f4
+   SOLVED
 
 
 Problem 2
@@ -38,6 +39,7 @@ Problem 2
 
    
    Answer: 4194eb91842c8e7e6df099ca73c38f28
+   SOLVED
 
 
 Problem 3
@@ -62,7 +64,8 @@ Problem 4
    Find the largest palindrome made from the product of two 3-digit numbers.
 
    
-   Answer: d4cfc27d16ea72a96b83d9bdef6ce2ec
+   Answer: d4cfc27d16ea72a96b83d9bdef6ce2ec 
+   SOLVED
 
 
 Problem 5
